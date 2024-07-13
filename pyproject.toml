@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tiralabra"
+version = "0.1.0"
+description = ""
+authors = ["loeppoe <maria.lipponen@helsinki.fi>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pylint = "^3.1.0"
+invoke = "^2.2.0"
+pytest = "^8.1.1"
+autopep8 = "^2.1.0"
+coverage = "^7.4.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.1.0"
+coverage = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
